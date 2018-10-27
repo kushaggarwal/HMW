@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+    
+</head>
+<body>
+    <div class="container">
+        <h1 style="text-align:center;"> Job Work Details</h1>
+        
+      
+          <label for="fname">Customers Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+          <label for="date">Date of the Job</label>
+         <input type="date" id="date"  placeholder="dd/mm/yy"><br>
+      
+          <label for="lname">Thickness of the sheet</label>
+          <input type="text" id="lname" name="lastname" placeholder="Thickness in mm">
+      
+          <label for="material">Material Type</label>
+          <select id="material" name="material">
+            <option value="MS">MS</option>
+            <option value="SS">SS(202)</option>
+            <option value="SS">SS(304)</option>
+            <option value="brass">Brass</option>
+          </select>
+        
+          <label for="lname">Time taken for the Job</label>
+          <input type="text" name="usr_time" placeholder="hh:mm:ss" id="time">
+      
+          <label for="subject">Job Description</label>
+          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+          
+          
+          
+
+
+          <div style="text-align:center">
+              <button onclick="myFunction()" class="btn btn-primary"  id="sumit">Submit</button>
+              
+          <a href="index.html">
+            <button type="button" class="btn btn-danger">Cancel</button>
+            </a>
+
+            
+          </div>
+
+          <p>Customers Name </p>
+        
+
+          <p id="demo"></p>
+       
+
+
+
+
+       
+      </div>
+      <script>
+    
+
+  
+ 
+      </script>
+
+</body>
+
+</html>
